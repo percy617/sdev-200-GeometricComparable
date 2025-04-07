@@ -1,4 +1,44 @@
+/* 
+-----------------------------------------
+|          GeometricObject              |
+-----------------------------------------
+| - color: String                       |
+| - filled: boolean                     |
+-----------------------------------------
+| + GeometricObject()                   |
+| + GeometricObject(color: String,      |
+|   filled: boolean)                    |
+| + getColor(): String                  |
+| + setColor(color: String): void       |
+| + isFilled(): boolean                 |
+| + setFilled(filled: boolean): void    |
+| + toString(): String                  |
+| + getArea(): double                   |  <<abstract>>
+| + getPerimeter(): double              |  <<abstract>>
+-----------------------------------------
+         
+(extends)
 
+-----------------------------------------
+|               Circle                  |
+-----------------------------------------
+| - radius: double                      |
+-----------------------------------------
+| + Circle()                            |
+| + Circle(radius: double)              |
+| + Circle(radius: double,              |
+|   color: String, filled: boolean)     |
+| + getRadius(): double                 |
+| + setRadius(radius: double): void     |
+| + getArea(): double                   |
+| + getDiameter(): double               |
+| + getPerimeter(): double              |
+| + equals(o: Object): boolean          |
+| + hashCode(): int                     |
+| + compareTo(o: Circle): int           |
+| + toString(): String                  |
+-----------------------------------------
+*/
 public class Main {
 	public static void main(String[] args) {
 		// Create three Circle objects
